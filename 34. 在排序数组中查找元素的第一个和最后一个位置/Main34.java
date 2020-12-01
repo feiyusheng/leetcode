@@ -26,7 +26,7 @@ class Solution34 {
         int left = 0, right = nums.length - 1;
         int ans = nums.length;
         while (left <= right) {
-            int mid = (right + left) >> 2;
+            int mid = (right + left) / 2;
             if (nums[mid] > target || (low && nums[mid] >= target)) {
                 right = mid - 1;
                 ans = mid;
