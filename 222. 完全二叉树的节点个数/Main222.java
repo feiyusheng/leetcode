@@ -13,6 +13,7 @@ class Solution222 {
         while ((leftNode = root.left) != null) {
             h++;
         }
+        return 0;
     }
 }
 
