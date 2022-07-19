@@ -5,6 +5,9 @@ import java.util.zip.ZipOutputStream;
 
 public class Main1672 {
     public static void main(String[] args) throws IOException {
+
+        System.out.printf("553:9943:9034-323".replaceAll("\\:|\\-", ""));
+
         File file = new File("D:/hh.zip");
         File excel = new File("D:/外司价500条.xlsx");
 
