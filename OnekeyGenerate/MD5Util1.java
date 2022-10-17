@@ -1,10 +1,8 @@
-import javax.sound.midi.Soundbank;
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.sql.SQLOutput;
 
-public class MD5Util {
+public class MD5Util1 {
 
     /**
      * md5加密
