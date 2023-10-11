@@ -60,7 +60,7 @@ public class MD5Util1 {
 
         String pubKey = "";
 
-        String redisPassword = "nw2Y#%mCrb2!rtVv";
+        String redisPassword = "Q1L-wMs=Sm9LL";
 
         String enCryptRedisPwd = ConfigTools.encrypt(privateKey, redisPassword);
         System.out.println("redis: " + enCryptRedisPwd);
